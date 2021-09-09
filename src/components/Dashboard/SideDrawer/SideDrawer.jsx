@@ -5,6 +5,7 @@ const theme= createTheme()
 const useStyles=makeStyles({
     paperwidth:{
         width:theme.spacing(30),
+        backgroundColor:'#3f51b5'
        
     },
     drawerWidth:{
@@ -32,7 +33,7 @@ const SideDrawer = ({disabled}) => {
     return (
          
 
-            <Drawer variant="permanent"  classes={{paper:classes.paperwidth}}   >
+            <Drawer variant="permanent"  classes={{paper:classes.paperwidth}}  >
                 <Typography variant="">
                          Hello Admin
                     </Typography>

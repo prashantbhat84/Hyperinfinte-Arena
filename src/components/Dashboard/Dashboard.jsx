@@ -9,7 +9,7 @@ const disabled=[false,false,false,false,false]
 const Dashboard = () => {
     
     return (
-        <Grid container spacing={2} >
+        <Grid container spacing={2} styles={{backgroundColor:'#fff00'}} >
             <Grid item  md={2} >
             <SideDrawer disabled={disabled}/>
             </Grid>
