@@ -35,7 +35,7 @@ const SideDrawer = ({disabled}) => {
 
             <Drawer variant="permanent"  classes={{paper:classes.paperwidth}}   >
                 <Typography variant="">
-                         Hello User
+                         Hello Admin
                     </Typography>
              <List style={{marginTop:'100px'}}>
                
