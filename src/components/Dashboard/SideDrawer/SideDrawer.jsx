@@ -14,14 +14,13 @@ const useStyles=makeStyles({
       margin:theme.spacing(1),
       borderRadius:theme.spacing(2),
        width:'250px',
-      height:'50px',
+      height:'30px',
      backgroundColor:'#212121',
      color:'#00000',
      '&:hover':{
-        backgroundColor:'#6d4c41' ,
-       
+        backgroundColor:'#6d4c41' ,       
      },
-    
+    fontSize:'9.5px'
     
     }
 })

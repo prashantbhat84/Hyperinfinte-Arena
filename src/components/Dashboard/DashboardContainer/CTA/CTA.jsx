@@ -7,11 +7,13 @@ const useStyles=makeStyles({
         backgroundColor:'#212121',
         color:'#00000',
         height:'50px',
+        width:'190px',
         borderRadius:'8px',
         '&:hover':{
-           backgroundColor:'#6d4c41' ,
-          
-        }
+           backgroundColor:'#6d4c41' ,          
+        },
+        fontSize:'9.5px'
+        
     }
 })
 
